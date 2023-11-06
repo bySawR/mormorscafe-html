@@ -53,9 +53,9 @@ button {
     font-size: 28px;
     font-weight: 700;
     border-radius: 600px;
-    border: 2px solid var(--mormor-blue);
+    border: 3px solid var(--mormor-blue);
     padding: 10px;
-    width: 200px;
+    min-width: 200px;
     margin-top: 30px;
     background: transparent;
     transition: 0.2s;
@@ -106,7 +106,7 @@ font-style: normal;
 font-weight: 400;
 line-height: normal;
 letter-spacing: -0.56px;
-width: 750px;
+max-width: 750px;
 }
 
 .mormor-apningstider {
@@ -239,12 +239,7 @@ text-transform: lowercase;
     justify-content: center;
 }
 
-@media only screen and (max-width: 1024px) {
-  .mormor-top-banner-logo {
-    top: 50px;
-    left: 40%;
-    height: 250px;
-  }
+@media only screen and (max-width: 1200px) {
   .mormor-galleri {
     flex-wrap: wrap;
     padding-left: 0px;
@@ -254,6 +249,38 @@ text-transform: lowercase;
 .mormor-galleri-bilde {
     width: calc(50% - 60px);
     }
+}
+
+@media only screen and (max-width: 1024px) {
+  .mormor-top-banner-logo {
+    top: 50px;
+    left: 40%;
+    height: 250px;
+  }
+  button {
+    font-size: 20px;
+    min-width: 150px;
+  }
+  .mormor-forside-text {
+    font-size: 20px;
+    max-width: 400px;
+  }
+  .mormor-apningstider-header {
+    font-size: 20px;
+  }
+  .mormor-apningstider-tekst {
+    font-size: 16px;
+  }
+
+  .mormor-cta {
+    gap: 50px;
+  }
+  .mormor-cta-ikon {
+    height: 100px;
+}
+.img-xl {
+    height: 150px;
+ }
 }
 
 @media only screen and (max-width: 767px) {
