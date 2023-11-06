@@ -5,6 +5,7 @@
 
 * {
     font-family: Barlow;
+    text-underline-offset: 6px;
 }
 
 section {
@@ -145,4 +146,70 @@ text-transform: lowercase;
 
 .mormor-galleri-bilde {
     width: 100%;
+}
+
+.side-menu {
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100%;
+    background-color: var(--mormor-blue);
+    color: #fff;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: right 0.3s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 200px;
+}
+
+
+.side-menu-header {
+    background-color: var(--mormor-blue);
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+}
+
+.side-menu-logo {
+    width: 150px;
+    height: 150px;
+}
+
+.close-menu {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.side-menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 40px 0;
+}
+
+.side-menu-list li {
+    margin: 10px 0;
+}
+
+.side-menu-list a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    display: block;
+    padding: 10px 20px;
+    border-radius: 600px;
+    transition: background-color 0.3s;
+    text-align: center;
+    outline: 2px solid transparent;
+}
+
+.side-menu-list a:hover {
+    text-decoration: underline;
 }
