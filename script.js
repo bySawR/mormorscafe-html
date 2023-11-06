@@ -8,8 +8,14 @@ menuIcon.addEventListener("click", () => {
 });
 
 closeMenuBtn.addEventListener("click", () => {
-    sideMenu.style.right = "-400px"; // Slide out to the right
-    setTimeout(() => {
-        sideMenu.style.visibility = "hidden"; // Set the visibility to hidden after the transition
-    }, 300); // Match the transition time (0.3s)
+    // Check if the screen width is 767 pixels or less
+    if (window.innerWidth <= 767) {
+        sideMenu.style.right = "-100%"; // Slide out to the right
+        setTimeout(() => {
+            sideMenu.style.visibility = "hidden"; // Set the visibility to hidden after the transition
+        }, 300); // Match the transition time (0.3s)
+    } else {
+        sideMenu.style.right = "-400px"; // Hide the menu on screens 1024px and higher
+        sideMenu.style.visibility = "hidden"; // Set the visibility to hidden
+    }
 });

@@ -254,8 +254,13 @@ text-transform: lowercase;
 .mormor-galleri-bilde {
     width: calc(50% - 60px);
     }
+}
 
+@media only screen and (max-width: 767px) {
     .utleie, .catering {
         display: none!important;
+    }
+    .side-menu {
+        width: 100%;
     }
 }
