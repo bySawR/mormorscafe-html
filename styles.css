@@ -356,6 +356,7 @@ text-transform: lowercase;
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.48px;
+    padding-top: 30px;
 }
 
 .mormor-pris-wrapper {
@@ -405,6 +406,7 @@ text-transform: lowercase;
     padding-bottom: 10px;
     border-bottom: 2px dotted var(--mormor-blue);
 }
+
 
 .mormor-meny-desc {
     color: var(--mormor-blue);
