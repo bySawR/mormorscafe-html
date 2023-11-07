@@ -325,7 +325,7 @@ text-transform: lowercase;
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.4px;
-    padding: 50px 30px 50px 50px;
+    padding: 50px 30px 50px 30px;
     outline: 2px solid var(--mormor-blue);
     width: 600px;
     text-align: center;
@@ -342,8 +342,8 @@ text-transform: lowercase;
 
 .mormor-meny-wrapper {
     display: flex;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 180px;
+    padding-right: 180px;
     justify-content: space-between;
     gap: 250px;
 }
@@ -356,7 +356,7 @@ text-transform: lowercase;
     font-weight: 600;
     line-height: normal;
     letter-spacing: -0.48px;
-    padding-top: 30px;
+    padding-top: 60px;
 }
 
 .mormor-pris-wrapper {
@@ -376,20 +376,19 @@ text-transform: lowercase;
     text-transform: lowercase;
 }
 
-.mormor-meny-pris {
+.mormor-meny-pris, .mormor-meny-mat-enkel-pris {
     color: var(--mormor-blue);
     text-align: right;
     font-family: Barlow;
-    font-size: 16px;
+    font-size: 16px!important;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 700!important;
     line-height: normal;
     letter-spacing: -0.32px;
-    text-transform: uppercase;
 }
 
 .mormor-meny-left, .mormor-meny-right {
-    width: 35%;
+    width: 40%;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -428,4 +427,53 @@ text-transform: lowercase;
     line-height: normal;
     letter-spacing: -0.32px;
     text-transform: lowercase;
+}
+
+.mormor-meny-item-underline {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    padding-bottom: 5px;
+    border-bottom: 2px dotted var(--mormor-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1024px) {
+.mormor-meny-wrapper {
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    justify-content: space-between;
+    gap: unset;
+}
+.mormor-meny-heading {
+        padding-top: 30px;
+    }
+.mormor-sitat-wrapper {
+    padding-bottom: 20px;
+}
+.mormor-logo-plain img {
+    height: 200px;
+    }
+.mormor-sitat-tekst {
+padding: 50px 50px 50px 50px;
+width: 700px;
+}
+.mormor-sitat-ikon {
+    margin-bottom: -20px;
+    outline: 20px solid var(--mormor-light);
+}
+.mormor-sitat-ikon img {
+    height: 70px;
+}
+
+.mormor-meny-left, .mormor-meny-right {
+    width: 47%;
+    }
 }
