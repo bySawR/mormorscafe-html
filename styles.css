@@ -43,7 +43,7 @@ header {
     position: absolute;
     top: 15vh;
     left: 60px;
-    height: 30vh;
+    height: 35%;
 }
 
 
@@ -261,9 +261,9 @@ text-transform: lowercase;
         padding-right: 90px;
     }
   .mormor-top-banner-logo {
-    top: 50px;
+    top: 25px;
     left: 40%;
-    height: 250px;
+    height: 160px;
   }
   button {
     font-size: 20px;
@@ -299,4 +299,131 @@ text-transform: lowercase;
     .side-menu {
         width: 100%;
     }
+}
+
+.mormor-logo-plain {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: -30px;
+    padding-bottom: 60px;
+}
+
+.mormor-sitat-ikon {
+    background: var(--mormor-light);
+    margin-bottom: -35px;
+    z-index: 2;
+    outline: 20px solid var(--mormor-light);
+}
+
+.mormor-sitat-tekst {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    padding: 50px 30px 50px 50px;
+    outline: 2px solid var(--mormor-blue);
+    width: 600px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.mormor-sitat-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.mormor-meny-wrapper {
+    display: flex;
+    padding-left: 120px;
+    padding-right: 120px;
+    justify-content: space-between;
+    gap: 250px;
+}
+
+.mormor-meny-heading {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+
+.mormor-pris-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mormor-meny-subtitle {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: lowercase;
+}
+
+.mormor-meny-pris {
+    color: var(--mormor-blue);
+    text-align: right;
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    text-transform: uppercase;
+}
+
+.mormor-meny-left, .mormor-meny-right {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mormor-meny-mat {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted var(--mormor-blue);
+}
+
+.mormor-meny-desc {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    text-transform: lowercase;
+}
+
+.mormor-meny-allergener {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    text-transform: lowercase;
 }
