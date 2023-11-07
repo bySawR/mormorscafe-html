@@ -73,6 +73,9 @@ button:hover {
     flex-direction: column;
     align-items: center;
     gap: 60px;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .mormor-cta {
@@ -81,6 +84,7 @@ button:hover {
     gap: 100px;
     justify-content: center;
     align-items: flex-end;
+    width: 100%;
 }
 
 .mormor-cta-item {
@@ -252,6 +256,10 @@ text-transform: lowercase;
 }
 
 @media only screen and (max-width: 1024px) {
+    header {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
   .mormor-top-banner-logo {
     top: 50px;
     left: 40%;
@@ -274,6 +282,7 @@ text-transform: lowercase;
 
   .mormor-cta {
     gap: 50px;
+        justify-content: space-around;
   }
   .mormor-cta-ikon {
     height: 100px;
