@@ -477,3 +477,15 @@ width: 700px;
     width: 47%;
     }
 }
+
+@media only screen and (max-width: 767px) {
+.mormor-meny-wrapper {
+    flex-direction: column;
+}
+.mormor-meny-left, .mormor-meny-right {
+    width: 100%;
+    }
+.mormor-sitat-tekst {
+    width: 60vw;
+ }
+}
