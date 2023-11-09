@@ -43,7 +43,7 @@ header {
     position: absolute;
     top: 15vh;
     left: 60px;
-    height: 30vh;
+    height: 35%;
 }
 
 
@@ -73,6 +73,9 @@ button:hover {
     flex-direction: column;
     align-items: center;
     gap: 60px;
+    width: 100%;
+    padding-left: 60px;
+    padding-right: 60px;
 }
 
 .mormor-cta {
@@ -81,6 +84,7 @@ button:hover {
     gap: 100px;
     justify-content: center;
     align-items: flex-end;
+    width: 100%;
 }
 
 .mormor-cta-item {
@@ -252,10 +256,14 @@ text-transform: lowercase;
 }
 
 @media only screen and (max-width: 1024px) {
+    header {
+        padding-left: 90px;
+        padding-right: 90px;
+    }
   .mormor-top-banner-logo {
-    top: 50px;
+    top: 25px;
     left: 40%;
-    height: 250px;
+    height: 160px;
   }
   button {
     font-size: 20px;
@@ -274,6 +282,7 @@ text-transform: lowercase;
 
   .mormor-cta {
     gap: 50px;
+        justify-content: space-around;
   }
   .mormor-cta-ikon {
     height: 100px;
@@ -291,3 +300,228 @@ text-transform: lowercase;
         width: 100%;
     }
 }
+
+.mormor-logo-plain {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: -30px;
+    padding-bottom: 60px;
+}
+
+.mormor-sitat-ikon {
+    background: var(--mormor-light);
+    margin-bottom: -35px;
+    z-index: 2;
+    outline: 20px solid var(--mormor-light);
+}
+
+.mormor-sitat-tekst {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    padding: 50px 30px 50px 30px;
+    outline: 2px solid var(--mormor-blue);
+    width: 600px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.mormor-sitat-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+}
+
+.mormor-meny-wrapper {
+    display: flex;
+    padding-left: 180px;
+    padding-right: 180px;
+    justify-content: space-between;
+    gap: 250px;
+}
+
+.mormor-meny-heading {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    padding-top: 60px;
+}
+
+.mormor-pris-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mormor-meny-subtitle {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.4px;
+    text-transform: lowercase;
+}
+
+.mormor-meny-pris, .mormor-meny-mat-enkel-pris {
+    color: var(--mormor-blue);
+    text-align: right;
+    font-family: Barlow;
+    font-size: 16px!important;
+    font-style: normal;
+    font-weight: 700!important;
+    line-height: normal;
+    letter-spacing: -0.32px;
+}
+
+.mormor-meny-left, .mormor-meny-right {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.mormor-meny-mat {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    padding-bottom: 10px;
+    border-bottom: 2px dotted var(--mormor-blue);
+}
+
+
+.mormor-meny-desc {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    text-transform: lowercase;
+}
+
+.mormor-meny-allergener {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    text-transform: lowercase;
+}
+
+.mormor-meny-item-underline {
+    color: var(--mormor-blue);
+    font-family: Barlow;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.36px;
+    padding-bottom: 5px;
+    border-bottom: 2px dotted var(--mormor-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 1024px) {
+.mormor-meny-wrapper {
+    display: flex;
+    padding-left: 90px;
+    padding-right: 90px;
+    justify-content: space-between;
+    gap: unset;
+}
+.mormor-meny-heading {
+        padding-top: 30px;
+    }
+.mormor-sitat-wrapper {
+    padding-bottom: 20px;
+}
+.mormor-logo-plain img {
+    height: 200px;
+    }
+.mormor-sitat-tekst {
+padding: 50px 50px 50px 50px;
+width: 700px;
+}
+.mormor-sitat-ikon {
+    margin-bottom: -20px;
+    outline: 20px solid var(--mormor-light);
+}
+.mormor-sitat-ikon img {
+    height: 70px;
+}
+
+.mormor-meny-left, .mormor-meny-right {
+    width: 47%;
+    gap: 20px;
+    }
+.mormor-meny-mat, .mormor-meny-desc, .mormor-meny-allergener, .mormor-meny-item-underline {
+    font-size: 16px;
+}
+}
+
+@media only screen and (max-width: 767px) {
+.mormor-meny-wrapper {
+    flex-direction: column;
+}
+.mormor-meny-left, .mormor-meny-right {
+    width: 100%;
+    }
+.mormor-sitat-tekst {
+    width: 60vw;
+ }
+
+.mormor-forside-text {
+    display: none;
+}
+.mormor-galleri {
+    display: none;
+}
+.mormor-cta-apningstider-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.mormor-apningstider-header {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.48px;
+        text-align: left;
+}
+.mormor-apningstider-tekst {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: left;
+}
+.mormor-apningstider {
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.img-xl {
+    height: 250px;
+    margin-top: -80px;
+    padding-bottom: 20px;
+}
+        }
