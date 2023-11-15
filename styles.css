@@ -24,6 +24,7 @@ header {
     padding: 30px;
     padding-left: 60px;
     padding-right: 60px;
+    background: var(--mormor-light);
 }
 
 .meny:hover {
@@ -525,3 +526,59 @@ width: 700px;
     padding-bottom: 20px;
 }
         }
+
+.mormors-blue {
+    background: var(--mormor-blue);
+    color: var(--mormor-light);
+}
+
+.mormors-filosofi {
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    gap: 180px;
+    align-items: center;
+    justify-content: center;
+}
+
+.mormors-text-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mormors-filosofi-heading {
+    color: var(--mormor-light);
+font-family: Barlow;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.6px;
+}
+
+.mormors-filosofi-content {
+    color: var(--mormor-light);
+font-family: Barlow;
+font-size: 28px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: -0.56px;
+text-transform: capitalize;
+}
+
+.mormors-text-wrapper, .mormors-image-wrapper {
+    width: 35%;
+}
+
+.mormors-image-wrapper {
+    width: 50%;
+}
+
+.mormor-filosofi-image {
+    width: 100%;
+}
