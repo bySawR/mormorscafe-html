@@ -568,7 +568,6 @@ font-style: normal;
 font-weight: 300;
 line-height: normal;
 letter-spacing: -0.56px;
-text-transform: capitalize;
 }
 
 .mormors-text-wrapper, .mormors-image-wrapper {
@@ -581,4 +580,21 @@ text-transform: capitalize;
 
 .mormor-filosofi-image {
     width: 100%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mormors-filosofi-content {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .mormors-filosofi-heading {
+        font-size: 24px;
+    }
+    .mormors-text-wrapper {
+        width: 60%;
+    }
+        .mormors-text-wrapper {
+        width: 40%;
+    }
 }
