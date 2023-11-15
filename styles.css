@@ -715,10 +715,12 @@ button.mormor-secondary-button:hover {
     flex-direction: column;
     gap: 10px;
         justify-content: space-between;
+        height: 100%;
 }
 
 .mormor-galleri-item {
     height: 100%; /* Each item takes the full width of its container */
+    width: 100%;
 }
 
 .mormor-galleri-item-50 {
@@ -736,8 +738,6 @@ button.mormor-secondary-button:hover {
 .mormor-galleri-container {
     display: flex;
     align-items: center;
-    padding-left: 90px;
-    padding-right: 90px;
     justify-content: center;
 }
 
