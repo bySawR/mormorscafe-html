@@ -704,24 +704,46 @@ button.mormor-secondary-button:hover {
 }
 
 .mormor-galleri-wrapper {
-    height: 560px;
-    padding-left: 90px;
-    padding-right: 90px;
     display: flex;
-    width: 100%;
+    justify-content: space-between;
+    gap: 10px;
+        justify-content: space-between;
+}
+
+.mormor-galleri-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+        justify-content: space-between;
+}
+
+.mormor-galleri-item {
+    height: 100%; /* Each item takes the full width of its container */
+}
+
+.mormor-galleri-item-50 {
+    width: calc(100% - 0px); /* Each item takes the full width of its container */
+}
+
+.mormor-galleri-tall {
+    height: calc(100% - 0px); /* Adjust the height based on your layout */
+}
+
+.mormor-galleri-wide {
+    width: calc(100% - 0px); /* Adjust the width based on your layout */
 }
 
 .mormor-galleri-container {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    align-items: center;
+    padding-left: 90px;
+    padding-right: 90px;
+    justify-content: center;
 }
 
-.mormor-galleri-triple {
-}
-
-.mormor-galleri-container-triple {
+.mormor-galleri-column-flex {
     display: flex;
     flex-direction: row;
+    gap: 10px;
 }
 
