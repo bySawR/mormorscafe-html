@@ -529,8 +529,13 @@ width: 700px;
         }
 
 .mormors-blue {
-    background: var(--mormor-blue);
-    color: var(--mormor-light);
+    background: var(--mormor-blue)!important;
+    color: var(--mormor-light)!important;
+}
+
+.mormors-light {
+    background: var(--mormor-light)!important;
+    color: var(--mormor-blue)!important;
 }
 
 .mormors-filosofi {
@@ -551,8 +556,8 @@ width: 700px;
     gap: 20px;
 }
 
-.mormors-filosofi-heading {
-    color: var(--mormor-light);
+.mormors-underside-heading {
+    color: inherit;
 font-family: Barlow;
 font-size: 30px;
 font-style: normal;
@@ -561,8 +566,8 @@ line-height: normal;
 letter-spacing: -0.6px;
 }
 
-.mormors-filosofi-content {
-    color: var(--mormor-light);
+.mormors-underside-content {
+    color: inherit;
 font-family: Barlow;
 font-size: 28px;
 font-style: normal;
