@@ -25,6 +25,7 @@ header {
     padding-left: 60px;
     padding-right: 60px;
     background: var(--mormor-light);
+    align-items: center;
 }
 
 .meny:hover {
@@ -597,4 +598,20 @@ letter-spacing: -0.56px;
         .mormors-text-wrapper {
         width: 40%;
     }
+}
+
+@media only screen and (max-width: 767px) {
+.mormor-image-wrapper, .mormor-filosofi-image {
+    display: none;
+}
+.mormors-text-wrapper {
+    width: 100%;
+}
+.mormors-filosofi-content {
+        font-size: 16px;
+}
+}
+
+.mormor-logo-small {
+    height: 54px;
 }
