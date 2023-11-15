@@ -624,3 +624,81 @@ letter-spacing: -0.56px;
 img.logo-liten {
     height: 64px;
 }
+
+.content-w-50 {
+    width: 50%!important;
+}
+
+.mormors-underside-cta-text {
+color: inherit;
+text-align: center;
+font-family: Barlow;
+font-size: 30px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.6px;
+}
+
+.mormors-underside-contact-text {
+    color: inhert;
+text-align: center;
+font-family: Barlow;
+font-size: 24px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.48px;
+text-transform: capitalize;
+}
+
+.mormors-underside-contact-text a {
+font-weight: 500;
+text-decoration: none;
+color: var(--mormor-blue);
+}
+
+.mormors-underside-contact-text a:hover {
+font-weight: 500;
+text-decoration: underline;
+color: var(--mormor-blue);
+}
+
+.mormor-underside-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.mormor-cta-item-underside {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.mormors-contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-top: 10px;
+}
+
+button.mormor-secondary-button {
+    color: var(--mormor-light);
+    font-size: 28px;
+    font-weight: 700;
+    border-radius: 600px;
+    border: 3px solid var(--mormor-blue);
+    padding: 10px;
+    min-width: 200px;
+    margin-top: 30px;
+    background: var(--mormor-blue);
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+button.mormor-secondary-button:hover {
+    color: var(--mormor-blue);
+    background: transparent;
+    transition: 0.2s;
+}
