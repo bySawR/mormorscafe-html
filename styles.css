@@ -748,6 +748,15 @@ button.mormor-secondary-button:hover {
 }
 
 
-@media only screen and (max-width: 1024px) {
-
+@media only screen and (max-width: 767px) {
+.mormor-galleri-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.mormor-galleri-column {
+    flex-direction: row;
+    }
+.mormor-galleri-item {
+    height: unset;
+}
 }
