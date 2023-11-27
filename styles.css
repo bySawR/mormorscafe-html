@@ -257,6 +257,14 @@ text-transform: lowercase;
     }
 }
 
+@media only screen and (max-width: 1200px) {
+  .mormor-top-banner-logo {
+    top: 150px;
+    left: 60px;
+    height: 28%;
+  }
+}
+
 @media only screen and (max-width: 1024px) {
     header {
         padding-left: 30px;
@@ -266,6 +274,7 @@ text-transform: lowercase;
     top: 25px;
     left: 40%;
     height: 160px;
+    overflow: hidden;
   }
   button {
     font-size: 20px;
