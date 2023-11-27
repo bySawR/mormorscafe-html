@@ -821,3 +821,17 @@ footer a:hover {
     text-decoration: underline!important;
     color: inherit
 }
+
+        /* Your existing CSS styles here */
+
+        /* Hide menu items by default on mobile */
+        .mormor-meny-item {
+            display: none;
+        }
+
+        /* Show menu items on larger screens */
+        @media screen and (min-width: 768px) {
+            .mormor-meny-item {
+                display: block;
+            }
+        }
