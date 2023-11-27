@@ -1,147 +1,121 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Mormors Café | Velkommen</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="text/javascript" src="script.js" defer></script>
-    <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" type="image/x-icon" href="favicon.ico" />
-    <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=block"
-      rel="stylesheet"
-    />
-    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
-  </head>
-  <header>
-    <div class="mormor-ikon-wrapper">
-      <a href="index.html"> </a>
+
+<head>
+  <title>Mormors Café | Velkommen</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script type="text/javascript" src="script.js" defer></script>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700&display=block"
+    rel="stylesheet" />
+  <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+</head>
+<header>
+  <div class="mormor-ikon-wrapper">
+    <a href="index.html"> </a>
+  </div>
+  <div class="mormor-ikon-wrapper meny">
+    <img src="assets/meny-ikon.svg" />
+  </div>
+</header>
+
+<body>
+  <div id="side-menu" class="side-menu">
+    <div class="side-menu-header">
+      <img id="close-menu" class="close-menu" src="assets/close-ikon-lys.svg" alt="Close Menu" />
     </div>
-    <div class="mormor-ikon-wrapper meny">
-      <img src="assets/meny-ikon.svg" />
-    </div>
-  </header>
-  <body>
-    <div id="side-menu" class="side-menu">
-      <div class="side-menu-header">
-        <img
-          id="close-menu"
-          class="close-menu"
-          src="assets/close-ikon-lys.svg"
-          alt="Close Menu"
-        />
+    <div class="mormor-meny-innhold">
+      <a href="index.html"><img class="side-menu-logo" src="assets/logo-lys.svg" /></a>
+      <ul class="side-menu-list">
+        <li><a href="meny.html">Meny</a></li>
+        <li><a href="catering.html">Catering</a></li>
+        <li><a href="utleie.html">Utleie</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+        <li><a href="filosofi.html">Om</a></li>
+      </ul>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/MormorsCafe/"><img src="assets/facebook-logo.svg" alt="Facebook" /></a>
+        <a href="https://www.instagram.com/mormorscafe"><img src="assets/instagram-logo.svg" alt="Instagram" /></a>
       </div>
-      <div class="mormor-meny-innhold">
-        <a href="index.html"
-          ><img class="side-menu-logo" src="assets/logo-lys.svg"
-        /></a>
-        <ul class="side-menu-list">
-          <li><a href="meny.html">Meny</a></li>
-          <li><a href="catering.html">Catering</a></li>
-          <li><a href="utleie.html">Utleie</a></li>
-          <li><a href="kontakt.html">Kontakt</a></li>
-          <li><a href="filosofi.html">Om</a></li>
-        </ul>
+    </div>
+  </div>
+
+  <div class="mormor-forside-wrapper">
+    <section>
+      <div class="mormor-top-banner">
+        <img class="mormor-top-banner-logo" src="assets/logo.svg" />
+        <img class="mormor-top-banner-image" src="assets/forside-banner.png" />
+      </div>
+    </section>
+    <div class="mormor-cta-apningstider-wrapper">
+      <section class="mormor-cta">
+        <div class="mormor-cta-wrapper">
+          <div class="mormor-cta">
+            <div class="mormor-cta-item catering">
+              <img class="mormor-cta-ikon" src="assets/catering-ikon.svg" />
+              <a href="catering.html"><button class="mormor-primary-button">Catering</button></a>
+            </div>
+            <div class="mormor-cta-item meny">
+              <img class="mormor-cta-ikon img-xl" src="assets/forsidemeny-ikon.svg" />
+              <a href="meny.html"><button class="mormor-primary-button">Meny</button></a>
+            </div>
+            <div class="mormor-cta-item utleie">
+              <img class="mormor-cta-ikon" src="assets/utleie-ikon.svg" />
+              <a href="utleie.html"><button class="mormor-primary-button">Utleie</button></a>
+            </div>
+          </div>
+          <div class="mormor-forside-text">
+            I hjertet av Gamlebyen finner du Mormors Cafe. En herlig perle i
+            en vakker by. Vi tilbyr lunch, middag, kaker, catering & events.
+          </div>
+        </div>
+      </section>
+      <section class="mormor-apningstider">
+        <div class="mormor-apningstider-header">Åpningstider</div>
+        <div class="mormor-apningstider-tekst">man - fre 11-17</div>
+        <div class="mormor-apningstider-tekst">lør 11-18</div>
+        <div class="mormor-apningstider-tekst">søn 12-17</div>
+      </section>
+    </div>
+
+    <section class="mormor-galleri">
+      <img class="mormor-galleri-bilde" src="assets/forside-bilde-01.png" />
+      <img class="mormor-galleri-bilde" src="assets/forside-bilde-02.png" />
+      <img class="mormor-galleri-bilde" src="assets/forside-bilde-03.png" />
+      <img class="mormor-galleri-bilde" src="assets/forside-bilde-04.png" />
+    </section>
+  </div>
+  <footer>
+    <div class="footer-wrapper">
+      <div class="footer-meta">
+        <img class="footer-logo" src="assets/logo-footer.svg" />
+      </div>
+      <div class="footer-meta">
+        <div class="footer-heading">Mormors Café</div>
+        <div class="footer-content">Gamlebyen Fredrikstad</div>
+        <div class="footer-content">Raadhusgaten 18 A</div>
+        <div class="footer-content">1632 Gamle Fredrikstad</div>
+      </div>
+      <div class="footer-meta">
+        <div class="footer-heading">Kontakt oss</div>
+        <div class="footer-content">Camilla Olsen</div>
+        <a href="tel:+4769321660">
+          <div class="footer-content">+47 69 32 16 60</div>
+        </a>
+      </div>
+      <div class="footer-meta">
         <div class="social-icons">
-          <a href="https://www.facebook.com/MormorsCafe/"
-            ><img src="assets/facebook-logo.svg" alt="Facebook"
-          /></a>
-          <a href="https://www.instagram.com/mormorscafe"
-            ><img src="assets/instagram-logo.svg" alt="Instagram"
-          /></a>
+          <a href="https://www.facebook.com/MormorsCafe/"><img src="assets/facebook-logo.svg" alt="Facebook" /></a>
+          <a href="https://www.instagram.com/mormorscafe"><img src="assets/instagram-logo.svg" alt="Instagram" /></a>
         </div>
       </div>
     </div>
+  </footer>
+</body>
 
-    <div class="mormor-forside-wrapper">
-      <section>
-        <div class="mormor-top-banner">
-          <img class="mormor-top-banner-logo" src="assets/logo.svg" />
-          <img
-            class="mormor-top-banner-image"
-            src="assets/forside-banner.png"
-          />
-        </div>
-      </section>
-      <div class="mormor-cta-apningstider-wrapper">
-        <section class="mormor-cta">
-          <div class="mormor-cta-wrapper">
-            <div class="mormor-cta">
-              <div class="mormor-cta-item catering">
-                <img class="mormor-cta-ikon" src="assets/catering-ikon.svg" />
-                <a href="catering.html"
-                  ><button class="mormor-primary-button">Catering</button></a
-                >
-              </div>
-              <div class="mormor-cta-item meny">
-                <img
-                  class="mormor-cta-ikon img-xl"
-                  src="assets/forsidemeny-ikon.svg"
-                />
-                <a href="meny.html"
-                  ><button class="mormor-primary-button">Meny</button></a
-                >
-              </div>
-              <div class="mormor-cta-item utleie">
-                <img class="mormor-cta-ikon" src="assets/utleie-ikon.svg" />
-                <a href="utleie.html"
-                  ><button class="mormor-primary-button">Utleie</button></a
-                >
-              </div>
-            </div>
-            <div class="mormor-forside-text">
-              I hjertet av Gamlebyen finner du Mormors Cafe. En herlig perle i
-              en vakker by. Vi tilbyr lunch, middag, kaker, catering & events.
-            </div>
-          </div>
-        </section>
-        <section class="mormor-apningstider">
-          <div class="mormor-apningstider-header">Åpningstider</div>
-          <div class="mormor-apningstider-tekst">man - fre 11-17</div>
-          <div class="mormor-apningstider-tekst">lør 11-18</div>
-          <div class="mormor-apningstider-tekst">søn 12-17</div>
-        </section>
-      </div>
-
-      <section class="mormor-galleri">
-        <img class="mormor-galleri-bilde" src="assets/forside-bilde-01.png" />
-        <img class="mormor-galleri-bilde" src="assets/forside-bilde-02.png" />
-        <img class="mormor-galleri-bilde" src="assets/forside-bilde-03.png" />
-        <img class="mormor-galleri-bilde" src="assets/forside-bilde-04.png" />
-      </section>
-    </div>
-    <footer>
-      <div class="footer-wrapper">
-        <div class="footer-meta">
-          <img class="footer-logo" src="assets/logo-footer.svg" />
-        </div>
-        <div class="footer-meta">
-          <div class="footer-heading">Mormors Café</div>
-          <div class="footer-content">Gamlebyen Fredrikstad</div>
-          <div class="footer-content">Raadhusgaten 18 A</div>
-          <div class="footer-content">1632 Gamle Fredrikstad</div>
-        </div>
-        <div class="footer-meta">
-          <div class="footer-heading">Kontakt oss</div>
-          <div class="footer-content">Camilla Olsen</div>
-          <a href="tel:+4769321660"
-            ><div class="footer-content">+47 69 32 16 60</div></a
-          >
-        </div>
-        <div class="footer-meta">
-          <div class="social-icons">
-            <a href="https://www.facebook.com/MormorsCafe/"
-              ><img src="assets/facebook-logo.svg" alt="Facebook"
-            /></a>
-            <a href="https://www.instagram.com/mormorscafe"
-              ><img src="assets/instagram-logo.svg" alt="Instagram"
-            /></a>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>
