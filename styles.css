@@ -9,7 +9,7 @@
 }
 
 html {
-    margin: 0;
+    overflow-x: hidden;
 }
 
 section {
@@ -19,6 +19,7 @@ section {
 body {
     background: var(--mormor-light);
     margin: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -312,7 +313,7 @@ text-transform: lowercase;
         display: none!important;
     }
     .side-menu {
-        width: 50%;
+        width: 100%;
     }
 }
 
@@ -632,7 +633,7 @@ letter-spacing: -0.56px;
 .mormors-filosofi-content {
         font-size: 16px;
 }
-}
+    }
 
 img.logo-liten {
     height: 64px;
@@ -792,7 +793,7 @@ button.mormor-secondary-button:hover {
 }
 
 .footer-heading {
-    color: var(--mormor-light)
+    color: var(--mormor-light);
     font-family: Barlow;
     font-size: 18px;
     font-style: normal;
