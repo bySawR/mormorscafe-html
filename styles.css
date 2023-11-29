@@ -8,6 +8,10 @@
     text-underline-offset: 6px;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 section {
     margin-bottom: 30px;
 }
