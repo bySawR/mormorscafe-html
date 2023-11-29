@@ -785,6 +785,7 @@ button.mormor-secondary-button:hover {
 @media only screen and (max-width: 1024px) {
 .mormors-filosofi {
         gap: 60px;
+            flex-direction: column;
 }
 .mormor-galleri-column-flex {
     flex-direction: column;
