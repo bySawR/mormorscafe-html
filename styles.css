@@ -46,6 +46,14 @@ header {
     width: 100%;
 }
 
+@media only screen and (max-width: 1024px) {
+.mormor-top-banner-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+}
+
 .mormor-top-banner-logo {
     position: absolute;
     top: 20%;
@@ -783,6 +791,11 @@ button.mormor-secondary-button:hover {
 }
 .mormors-light {
     overflow-x: hidden;
+}
+.mormor-galleri-wrapper {
+    padding-left: 0;
+    padding-right: 0;
+        gap: 10px;
 }
 }
 
