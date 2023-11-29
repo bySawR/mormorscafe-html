@@ -716,61 +716,65 @@ button.mormor-secondary-button:hover {
 }
 
 .mormor-galleri-wrapper {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
-        justify-content: space-between;
-}
-
-.mormor-galleri-column {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-        justify-content: space-between;
-        height: 100%;
-}
-
-.mormor-galleri-item {
-    height: 100%; /* Each item takes the full width of its container */
-    width: 100%;
-}
-
-.mormor-galleri-item-50 {
-    width: calc(100% - 0px); /* Each item takes the full width of its container */
-}
-
-.mormor-galleri-tall {
-    height: calc(100% - 0px); /* Adjust the height based on your layout */
-}
-
-.mormor-galleri-wide {
-    width: calc(100% - 0px); /* Adjust the width based on your layout */
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    align-items: stretch;
 }
 
 .mormor-galleri-container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
 }
 
-.mormor-galleri-column-flex {
-    display: flex;
-    flex-direction: row;
-    gap: 10px;
+.mormor-galleri-column-01 {
+    grid-row: 1;
+}
+
+.mormor-galleri-column-02 {
+    grid-column: 2;
+    gap: 20px;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.mormor-galleri-column-03 {
+    grid-column: 3;
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 20px; /* Gap between items */
+}
+
+/* Adjust these styles based on your specific needs */
+.mormor-galleri-item-01,
+.mormor-galleri-item-02,
+.mormor-galleri-item-03 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image fills its container */
+}
+
+.mormor-galleri-item-04 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image fills its container */
+    grid-column: span 2; /* Make image 04 span two rows */
+}
+
+.mormor-galleri-item-05,
+.mormor-galleri-item-06 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure the image fills its container */
 }
 
 
 @media only screen and (max-width: 1024px) {
-.mormor-galleri-wrapper {
-    display: flex;
-    flex-direction: column;
-}
-.mormor-galleri-column {
-    flex-direction: row;
-    }
-.mormor-galleri-item {
-    height: unset;
-}
 .mormors-filosofi {
         gap: 60px;
 }
@@ -827,8 +831,14 @@ footer a:hover {
     color: inherit;
 }
 
+    .social-icons-footer {
+        display: flex;
+        gap: 10px;
+    }
+
 @media only screen and (max-width: 1024px) {
-    .social-icons {
+    .social-icons-footer {
             justify-content: flex-start;
 
+}
 }
