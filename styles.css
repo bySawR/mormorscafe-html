@@ -48,8 +48,8 @@ header {
 
 .mormor-top-banner-logo {
     position: absolute;
-    top: 20vh;
-    left: 60px;
+    top: 20%;
+    left: 5%;
     height: 40%;
 }
 
@@ -262,10 +262,10 @@ text-transform: lowercase;
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (max-width: 1300px) {
   .mormor-top-banner-logo {
-    top: 150px;
-    left: 60px;
+    top: 15%;
+    left: 5%;
     height: 28%;
   }
 }
@@ -276,8 +276,9 @@ text-transform: lowercase;
         padding-right: 30px;
     }
   .mormor-top-banner-logo {
-    top: 30px;
-    left: 120px;
+top: 5%;
+    left: 50%;
+    transform: translate(-50%, -15%);
     height: 120px;
     overflow: hidden;
   }
