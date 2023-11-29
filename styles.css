@@ -169,7 +169,7 @@ text-transform: lowercase;
 .side-menu {
     position: fixed;
     top: 0;
-    right: -400px;
+    /* right: -400px; */
     width: 350px;
     height: 100%;
     background-color: var(--mormor-blue);
@@ -312,7 +312,7 @@ text-transform: lowercase;
         display: none!important;
     }
     .side-menu {
-        width: 100%;
+        width: 50%;
     }
 }
 
@@ -807,7 +807,7 @@ button.mormor-secondary-button:hover {
 }
 
 .footer-content {
-    color: var(--mormor-light)
+    color: var(--mormor-light);
     font-family: Barlow;
     font-size: 18px;
     font-style: normal;
@@ -818,12 +818,12 @@ button.mormor-secondary-button:hover {
 
 footer a {
     text-decoration: none!important;
-    color: inherit
+    color: inherit;
 }
 
 footer a:hover {
     text-decoration: underline!important;
-    color: inherit
+    color: inherit;
 }
 
 @media only screen and (max-width: 1024px) {
