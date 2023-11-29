@@ -149,19 +149,16 @@ text-transform: lowercase;
 }
 
 .mormor-galleri {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     justify-content: center;
     align-items: center;
-}
-
-.mormor-galleri {
     margin-top: 60px;
     padding-left: 60px;
     padding-right: 60px;
 }
+
 
 .mormor-galleri-bilde {
     width: 100%;
@@ -250,15 +247,15 @@ text-transform: lowercase;
     justify-content: center;
 }
 
-@media only screen and (max-width: 1200px) {
-  .mormor-galleri {
-    flex-wrap: wrap;
-    padding-left: 0px;
-    padding-right: 0px;
-}
-
-.mormor-galleri-bilde {
-    width: calc(50% - 60px);
+@media only screen and (max-width: 1024px) {
+    .mormor-galleri {
+        grid-template-columns: repeat(2, 1fr);
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+        .footer-wrapper {
+        grid-template-columns: repeat(1, 1fr)!important;
+        padding: 50px 10px 50px 10px!important;
     }
 }
 
@@ -786,8 +783,9 @@ button.mormor-secondary-button:hover {
 }
 
 .footer-wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     background-color: var(--mormor-blue);
-    display: flex;
     color: var(--mormor-light);
     padding: 100px 60px 100px 60px;
     margin-top: 30px;
@@ -805,7 +803,8 @@ button.mormor-secondary-button:hover {
 }
 
 .footer-meta {
-    width: 550px;
+    width: 100%; /* Adjust the width as needed */
+    padding: 20px;
 }
 
 .footer-content {
@@ -829,13 +828,7 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 1024px) {
-    .footer-wrapper {
-        flex-direction: column;
-        gap: 30px;
-        padding: 50px 30px 50px 30px;
-    }
     .social-icons {
-        justify-content: center;
-    }
+            justify-content: flex-start;
 
 }
