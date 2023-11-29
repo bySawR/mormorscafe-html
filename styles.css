@@ -271,9 +271,9 @@ text-transform: lowercase;
         padding-right: 30px;
     }
   .mormor-top-banner-logo {
-    top: 25px;
-    left: 40%;
-    height: 160px;
+    top: 120px;
+    left: 120px;
+    height: 120px;
     overflow: hidden;
   }
   button {
