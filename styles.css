@@ -639,15 +639,17 @@ letter-spacing: -0.56px;
 .mormors-filosofi-content {
         font-size: 16px;
 }
+
+.mormors-underside-content {
+
+} 
     }
 
 img.logo-liten {
     height: 64px;
 }
 
-.mormors-underside-content {
-font-size: 18px;
-} 
+
 
 .content-w-50 {
     width: 50%!important;
