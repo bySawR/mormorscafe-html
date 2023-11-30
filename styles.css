@@ -13,7 +13,7 @@ html {
 }
 
 section {
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 body {
@@ -484,11 +484,18 @@ top: 5%;
     height: 150px;
     }
 .mormor-sitat-tekst {
-padding: 50px 50px 50px 50px;
+padding: 10px 50px 10px 50px;
 width: 700px;
+z-index: 1;
 }
+
+.mormor-sitat-tekst p {
+z-index: 2;
+    }
+
+
 .mormor-sitat-ikon {
-    margin-bottom: -20px;
+    margin-bottom: -13px;
     outline: 20px solid var(--mormor-light);
 }
 .mormor-sitat-ikon img {
@@ -626,6 +633,9 @@ letter-spacing: -0.56px;
     }
         .mormors-text-wrapper {
         width: 40%;
+    }
+    .mormors-underside-content {
+    font-size: 20px;
     }
 }
 
@@ -859,3 +869,16 @@ footer a:hover {
 }
 }
 
+.mormor-logo-small {
+top: 5%;
+    left: 50%;
+    transform: translate(-50%, -15%);
+    height: 180px;
+    position: fixed;
+}
+
+@media only screen and (max-width: 1024px) {
+    .mormor-logo-small {
+            height: 120px;
+        }
+    }
