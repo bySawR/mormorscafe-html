@@ -655,7 +655,7 @@ img.logo-liten {
 color: inherit;
 text-align: center;
 font-family: Barlow;
-font-size: 26px;
+font-size: 24px;
 font-style: normal;
 font-weight: 600;
 line-height: normal;
@@ -717,6 +717,7 @@ button.mormor-secondary-button {
     background: var(--mormor-blue);
     transition: 0.2s;
     cursor: pointer;
+    letter-spacing: 0.5;
 }
 
 button.mormor-secondary-button:hover {
