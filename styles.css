@@ -129,7 +129,7 @@ max-width: 750px;
 }
 
 .mormor-apningstider {
-    margin-top: 30px;
+    margin-top: 0px!important;
 }
 
 .mormor-apningstider-header {
@@ -481,7 +481,7 @@ top: 5%;
     padding-bottom: 20px;
 }
 .mormor-logo-plain img {
-    height: 200px;
+    height: 150px;
     }
 .mormor-sitat-tekst {
 padding: 50px 50px 50px 50px;
@@ -589,7 +589,7 @@ letter-spacing: -0.6px;
 .mormors-underside-content {
     color: inherit;
 font-family: Barlow;
-font-size: 28px;
+font-size: 18px;
 font-style: normal;
 font-weight: 300;
 line-height: normal;
