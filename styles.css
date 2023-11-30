@@ -717,7 +717,7 @@ button.mormor-secondary-button {
     background: var(--mormor-blue);
     transition: 0.2s;
     cursor: pointer;
-    letter-spacing: 0.5;
+    letter-spacing: 0.5px;
 }
 
 button.mormor-secondary-button:hover {
