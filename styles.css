@@ -427,7 +427,7 @@ letter-spacing: 0px;
     font-weight: 600;
     line-height: normal;
     letter-spacing: 0px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
     border-bottom: 2px dotted var(--mormor-blue);
 }
 
@@ -440,13 +440,12 @@ letter-spacing: 0px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: 0px;
-    text-transform: lowercase;
 }
 
 .mormor-meny-allergener {
     color: var(--mormor-blue);
     font-family: var(--profil-font);
-    font-size: 16px;
+    font-size: 14px!important;
     font-style: normal;
     font-weight: 300;
     line-height: normal;
@@ -507,7 +506,7 @@ z-index: 2;
 
 .mormor-meny-left, .mormor-meny-right {
     width: 47%;
-    gap: 20px;
+    gap: 30px;
     }
 .mormor-meny-mat, .mormor-meny-desc, .mormor-meny-allergener, .mormor-meny-item-underline {
     font-size: 16px;
